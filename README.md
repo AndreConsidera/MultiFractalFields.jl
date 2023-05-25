@@ -1,5 +1,8 @@
 # MultiFractalFields
 
+Package for simulating multifractal random velocity fields according to the Gaussian multiplicative chaos theory.
+
+
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://AndreConsidera.github.io/MultiFractalFields.jl/stable/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://AndreConsidera.github.io/MultiFractalFields.jl/dev/)
 [![Build Status](https://github.com/AndreConsidera/MultiFractalFields.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/AndreConsidera/MultiFractalFields.jl/actions/workflows/CI.yml?query=branch%3Amain)
