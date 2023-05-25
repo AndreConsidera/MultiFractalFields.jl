@@ -4,7 +4,8 @@ module MultiFractalFields
     using Distributions
     using LinearAlgebra
     using RecipesBase
-    
+    using Statistics
+
     import Base: ^
     
     export Field, GaussianField, MultiFractalField, TrivialGmcNoise, TrivialMultiFractalField
