@@ -1,7 +1,5 @@
 @testset "Realization" begin
     # Parseval identity and zero mean
-    import Statistics: mean
-
     N = 2^15
     η = 1/N
     ξ = 2/3
@@ -28,11 +26,11 @@
             Γ = GmcNoise(logker, g1 , g2, γ);
             u = realization(pwker, Γ);
             energy_k[i] = 2sum(abs.(Γ.wk[2:end] .* pwker.Lk[2:end]).^2) .+ abs.(Γ.wk[1] .* pwker.Lk[1]).^2
-            energy_x[i] = Statistics.mean(abs.(u).^2)
-            A[i] = Statistics.mean(u)
+            energy_x[i] = mean(abs.(u).^2)
+            A[i] = mean(u)
         end
-         @test isapprox(Statistics.mean(A), 0.,atol=1e-1)
-         @test isapprox(Statistics.mean(energy_x), Statistics.mean(energy_k), atol=1e-1)
+         @test isapprox(mean(A), 0.,atol=1e-1)
+         @test isapprox(mean(energy_x), mean(energy_k), atol=1e-1)
     end
     
     #exponential kernel
