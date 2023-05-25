@@ -1,4 +1,5 @@
 using Test, MultiFractalFields
+using Statistics
 
 testfiles = [
     "field.jl",
