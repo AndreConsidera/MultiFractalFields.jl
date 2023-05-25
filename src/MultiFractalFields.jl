@@ -1,5 +1,5 @@
 module MultiFractalFields
-    
+
     using FFTW
     using Distributions
     using LinearAlgebra
@@ -26,4 +26,3 @@ module MultiFractalFields
     include("plotrecipes/recipes.jl")
     include("strucfunc.jl")
 end 
-
