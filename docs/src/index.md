@@ -1,5 +1,14 @@
-# My doc
+```@meta
+CurrentModule = MultiFractalFields
+```
 
-```@docs
-AbstractCovariance
+# MultiFractalFields
+
+Documentation for [MultiFractalFields](https://github.com/AndreConsidera/MultiFractalFields.jl).
+
+```@index
+```
+
+```@autodocs
+Modules = [MultiFractalFields]
 ```

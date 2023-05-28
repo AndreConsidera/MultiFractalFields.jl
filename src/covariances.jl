@@ -1,14 +1,7 @@
 """
     Abstract supertype for the covariance functions (singular or not).
 
-# Examples
-```jldoctest
-julia> Linear{Float64}<:AbstractCovariance{Float64}
-true
 
-julia> Log{Int64}<:AbstractCovariance{Int64}
-true
-```
 """
 abstract type AbstractCovariance{T} end
 
