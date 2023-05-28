@@ -1,4 +1,8 @@
+"""
+    Field
 
+Supertype for `GaussianField` and `MultifractalField`. 
+"""
 abstract type Field end
 
 function sample end

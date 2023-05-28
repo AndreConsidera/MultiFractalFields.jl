@@ -1,12 +1,6 @@
 # Docs
-```@docs
-Torus
 
-AbstractCovariance
-
-Field
-
-GaussianField
-
-
+```@autodocs
+Modules = [MultiFractalFields]
+Order   = [:type, :function]
 ```
