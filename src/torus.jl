@@ -3,11 +3,11 @@
 
 1D torus regularized at scale `η` with `N` grid points.
 """
-struct torus{T1<:Real, T2<:Real}
+struct Torus{T1<:Real, T2<:Real}
     r::Vector{T1}
     η::T2
     rη::Vector{T1}
-    function ηtorus(N, η)
+    function Torus(N, η)
         r = range(-π, step=2π/N,length=N)
         rη = normevans.(r, η)
         new{eltype(r),typeof(η)}(r, η, rη)

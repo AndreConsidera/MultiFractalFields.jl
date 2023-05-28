@@ -8,14 +8,15 @@ module MultiFractalFields
 
     import Base: ^
     
-    export Field, GaussianField, MultiFractalField, TrivialGmcNoise, TrivialMultiFractalField
-    export AbstractKernel, Kernel, GenericModel, SingularModel, CovarianceModel
-    export UnitaryWhiteNoise, GmcNoise, AbstractNoise
-    export realization
-    export ηtorus
+    export Field, GaussianField, MultifractalField
+    #export sample
+    export AbstractCovariance, Covariance, SingularCovariance
+    export UnitaryWhiteNoise, AbstractNoise
+    #export realization
+    export Torus
     export normevans
-    export strucfunc
-    export η_scale, grid, η_grid, η_cov, klength, kernel, noise, model
+    #export strucfunc
+    #export η_scale, grid, η_grid, η_cov, klength, kernel, noise, model
     
     include("normevans.jl")
     include("torus.jl")
