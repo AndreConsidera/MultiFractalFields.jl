@@ -1,22 +1,24 @@
 @testset "Covariances and Fields" begin
-    torus = Torus(2^15, 1e-2)
-    @test l = Linear(2/3)
-    @test e = Exponential(1/3)
-    @test lg = Log()
-    @test Linear(1,1.,2/3)
-    @test e2 = Exponential(1,0.5,2/3)
-    @test Log(2.5)
+    Torus(2^15, 1e-2)
+    Linear(2/3)
+    Exponential(1/3)
+    Log()
+    Linear(1,1.,2/3)
+    Exponential(1,0.5,2/3)
+    Log(2.5)
+    MultifractalField(Linear(2/3), Torus(2^15, 1e-2), Log(), 0.4)
+    MultifractalField(Exponential(1/3), Torus(2^15, 1e-2), Log(), 0.6)
+    GaussianField(Exponential(1,0.5,2/3), Torus(2^15, 1e-2))
     
-    @test mf = MultifractalField(l, torus, lg, 0.4)
-    @test MultifractalField(e, torus, lg, 0.6)
-    @test gf = GaussianField(e2, torus)
+    mf = MultifractalField(Linear(1,1.,2/3), Torus(2^15, 1e-2), Log(), 0.4)
+    gf = GaussianField(Exponential(1,0.5,2/3), Torus(2^15, 1e-2))
+    sample(gf)
     
-    @test sample(gf)
-    @test seed = 1234
-    @test sample(gf,seed)
-    @test sample(mf)
-    @test g1 = UnitaryWhiteNoise(torus)
-    @test g2 = UnitaryWhiteNoise(torus)
-    @test sample(mf, g1, g2)
+    seed = 1234
+    sample(gf,seed)
+    sample(mf)
+    g1 = UnitaryWhiteNoise(Torus(2^15, 1e-2))
+    g2 = UnitaryWhiteNoise(Torus(2^15, 1e-2))
+    sample(mf, g1, g2)
 
 end

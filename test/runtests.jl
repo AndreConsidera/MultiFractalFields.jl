@@ -2,7 +2,7 @@ using Test, MultiFractalFields
 
 
 testfiles = [
-    
+    "covariances_fields.jl",
     "normevans.jl",
     
 ]
