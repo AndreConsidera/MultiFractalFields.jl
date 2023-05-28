@@ -1,11 +1,12 @@
 name = "MultiFractalFields"
 uuid = "424b133d-7d37-4eca-9954-b7e5ab009cd0"
 authors = ["Andre Considera"]
-version = "0.2.0"
+version = "0.1.0"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
