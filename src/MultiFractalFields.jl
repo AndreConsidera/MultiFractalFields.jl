@@ -20,11 +20,11 @@ module MultiFractalFields
     
     include("normevans.jl")
     include("torus.jl")
-    include("models.jl")
-    include("kernels.jl")
+    include("covariances.jl")
+   # include("kernels.jl")
     include("noises.jl")
-    include("realization.jl")
-    include("field.jl")
-    include("plotrecipes/recipes.jl")
-    include("strucfunc.jl")
+    #include("realization.jl")
+    include("fields.jl")
+    #include("plotrecipes/recipes.jl")
+    #include("strucfunc.jl")
 end 
