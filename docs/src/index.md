@@ -1,14 +1,12 @@
-```@meta
-CurrentModule = MultiFractalFields
-```
+# Docs
+```@docs
+Torus
 
-# MultiFractalFields
+AbstractCovariance
 
-Documentation for [MultiFractalFields](https://github.com/AndreConsidera/MultiFractalFields.jl).
+Field
 
-```@index
-```
+GaussianField
 
-```@autodocs
-Modules = [MultiFractalFields]
+
 ```

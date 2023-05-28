@@ -1,5 +1,5 @@
 """
-    torus(N, η)
+    Torus(N, η)
 
 1D torus regularized at scale `η` with `N` grid points.
 """
