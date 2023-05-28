@@ -2,9 +2,9 @@
 CurrentModule = MultiFractalFields
 ```
 
-# MultiFractalFields
+# MultifractalFields
 
-Documentation for [MultiFractalFields](https://github.com/AndreConsidera/MultiFractalFields.jl).
+Package for simulating multifractal random velocity fields according to the Gaussian multiplicative chaos theory.
 
 ```@index
 ```
