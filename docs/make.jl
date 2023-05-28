@@ -1,4 +1,4 @@
 using MultiFractalFields
 using Documenter
 
-makedocs(sitename="My Documentation")
+makedocs(modules = [MultiFractalFields], sitename="My Documentation")
