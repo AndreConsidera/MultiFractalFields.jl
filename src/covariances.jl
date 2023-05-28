@@ -1,7 +1,7 @@
 """
     AbstractCovariance{T}
 
-Supertype for all covariance functions (singular or not) 
+Supertype for all covariance functions (singular or not).
 """
 abstract type AbstractCovariance{T} end
 
