@@ -23,6 +23,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/AndreConsidera/MultiFractalFields.jl",
-    devbranch="main",
+    repo = "github.com/AndreConsidera/MultiFractalFields.jl.git",
+    
 )
