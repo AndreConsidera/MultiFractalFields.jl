@@ -1,18 +1,22 @@
-# Examples
+# Basic usage
 
-Some examples on how to use `MultiFractalFields`.
+Below is a basic script to generate multifractal fields using `MultiFractalFields.jl`. The theoretical background is the Gaussian Multiplicative Chaos theory.
 
-    
-    using MultiFractalFields
-    using Plots
-    
-    N = 2^16; η = 4pi/N ; γ = 0.4
-    
-    torus = Torus(N, η)
-    cov = Linear(2/3)  #piecewise covariance with scaling exponent 2/3 
-    logcov = Log()     #singular covariance  for the gmc
-    
-    mf = MultifractalField(cov, torus, logcov, γ)
-    plot(mf)
-    
+This Julia package was used to generate the results of this [paper](https://arxiv.org/pdf/2305.09839.pdf).
+
+```julia
+using MultiFractalFields
+using Plots
+
+N = 2^15; η = 4π/N; γ = 0.4     # define the physical/numerical parameters
+
+torus = Torus(N, η)
+lincov = Linear(2/3)            # linear covariance with scaling exponent 2/3 
+logcov = Log()                  # singular covariance for the gmc
+
+mf = MultiFractalField(lincov, torus, logcov, γ)
+plot(mf)
+```
+---
+![Fields](./assets/fig1c.pdf)
 

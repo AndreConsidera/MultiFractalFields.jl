@@ -6,7 +6,7 @@ module MultiFractalFields
     
     import Random: seed!
 
-    export Field, GaussianField, MultifractalField
+    export Field, GaussianField, MultiFractalField
     export Linear, Exponential, Log
     export sample
     export AbstractCovariance, Covariance, SingularCovariance
@@ -21,6 +21,7 @@ module MultiFractalFields
     include("spectral_sqrt.jl")
     include("noises.jl")
     include("fields.jl")
+    include("sample.jl")
     include("plotrecipes/fields.jl")
     #include("strucfunc.jl")
 end 

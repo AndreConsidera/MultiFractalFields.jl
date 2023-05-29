@@ -1,25 +1,36 @@
-# API
 
-## Covariances 
-
+# Torus
 ```@docs
 Torus
+```
+---
+# Covariances 
+
+#### Abstract types
+```@docs
+AbstractCovariance
+Covariance
+SingularCovariance
+```
+
+#### Concrete types
+```@docs
+Linear
+Exponential
+Log
+```
+
+---
+# Fields
+
+```@docs
 Field
-MultifractalField
 GaussianField
-AbstractCovariance
+MultiFractalField
 ```
-
-## Fields
+---
+# Sample 
 
 ```@docs
-Field
-MultifractalField
-Gaussian
-AbstractCovariance
-```
-
-## Torus
-```@docs
-Torus
+sample
 ```

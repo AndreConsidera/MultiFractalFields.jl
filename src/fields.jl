@@ -2,10 +2,19 @@
     Field
 
 Supertype for `GaussianField` and `MultifractalField`. 
+
+# Examples
+
+```jldoctest
+julia> GaussianField<:Field
+true
+
+julia> MultiFractalField<:Field
+true
+```
 """
 abstract type Field end
 
-function sample end
 
 # ----------------
 # IMPLEMENTATIONS
@@ -13,5 +22,3 @@ function sample end
 
 include("fields/gaussian.jl")
 include("fields/multifractal.jl")
-include("sample/gaussian.jl")
-include("sample/multifractal.jl")

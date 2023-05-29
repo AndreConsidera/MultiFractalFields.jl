@@ -3,13 +3,13 @@
     ylabel --> "Field"
     lab --> "Gaussian"
     framestyle --> :box
-    gf.tor.r, sample(gf)
+    gf.torus.r, sample(gf)
 end
 
-@recipe function f(mf::MultifractalField)
+@recipe function f(mf::MultiFractalField)
     xlabel --> "x"
     ylabel --> "Field"
     lab --> "multifractal-γ = $(mf.γ) "
     framestyle --> :box
-    mf.tor.r, sample(mf)
+    mf.torus.r, sample(mf)
 end
