@@ -1,7 +1,7 @@
 name = "MultiFractalFields"
 uuid = "424b133d-7d37-4eca-9954-b7e5ab009cd0"
 authors = ["Andre Considera"]
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
