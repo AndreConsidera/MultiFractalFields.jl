@@ -6,11 +6,11 @@
     Linear(1,1.,2/3)
     Exponential(1,0.5,2/3)
     Log(2.5)
-    MultifractalField(Linear(2/3), Torus(2^15, 1e-2), Log(), 0.4)
-    MultifractalField(Exponential(1/3), Torus(2^15, 1e-2), Log(), 0.6)
+    MultiFractalField(Linear(2/3), Torus(2^15, 1e-2), Log(), 0.4)
+    MultiFractalField(Exponential(1/3), Torus(2^15, 1e-2), Log(), 0.6)
     GaussianField(Exponential(1,0.5,2/3), Torus(2^15, 1e-2))
     
-    mf = MultifractalField(Linear(1,1.,2/3), Torus(2^15, 1e-2), Log(), 0.4)
+    mf = MultiFractalField(Linear(1,1.,2/3), Torus(2^15, 1e-2), Log(), 0.4)
     gf = GaussianField(Exponential(1,0.5,2/3), Torus(2^15, 1e-2))
     sample(gf)
     
