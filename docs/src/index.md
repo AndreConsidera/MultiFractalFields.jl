@@ -30,5 +30,5 @@ mf = MultiFractalField(lincov, torus, logcov, γ)
 plot(mf)
 ```
 ---
-![Fields](./assets/fig1c.pdf)
+![fields](./assets/fig1c.png)
 
