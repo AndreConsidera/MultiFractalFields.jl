@@ -42,8 +42,8 @@ jobs:
       #    COVERALLS_TOKEN: ${{ secrets.COVERALLS_TOKEN }}
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
-      #- name: Julia TagBot
-      #  uses: JuliaRegistries/TagBot@v1.10.0
+      - name: Julia TagBot
+        uses: JuliaRegistries/TagBot@v1.10.0
   docs:
       name: Documentation
       runs-on: ubuntu-latest
