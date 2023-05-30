@@ -1,10 +1,13 @@
 # Basic usage
 
-## Installation
+##### Installation
+
+Run the following commands to be able to run the script below
 
 ```julia
 julia> using Pkg
 julia> Pkg.add("MultiFractalFields")
+julia> Pkg.add("Plots")
 ```
 
 ---
