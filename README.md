@@ -8,4 +8,4 @@
 Package for simulating multifractal random velocity fields according to the Gaussian Multiplicative Chaos Theory.
 
 
-[!](./docs/src/assets/fig1c.pdf)
+![field](docs/src/assets/fig1c.png)
