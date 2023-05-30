@@ -6,18 +6,17 @@ DocMeta.setdocmeta!(MultiFractalFields, :DocTestSetup, :(using MultiFractalField
 
 makedocs(
     modules=[MultiFractalFields],
-    #authors="Andre Considera",
-    #repo="https://github.com/AndreConsidera/MultiFractalFields.jl/blob/{commit}{path}#{line}",
+    authors="Andre Considera",
+    repo="https://github.com/AndreConsidera/MultiFractalFields.jl/blob/{commit}{path}#{line}",
     sitename="MultiFractalFields",
     format = Documenter.HTML(),
-    #pages = [
-    #    "Home" => "index.md",
-    #    "API" => "API.md"
-    #],
-    #checkdocs=:exports
+    pages = [
+        "Home" => "index.md",
+        "API" => "API.md"
+    ],
+    checkdocs=:exports
 )
 
 deploydocs(
     repo = "github.com/AndreConsidera/MultiFractalFields.jl.git",
-    
 )
