@@ -22,7 +22,7 @@ makedocs(
     checkdocs=:exports
 )
 
-deploydocs(
-    repo = "github.com/AndreConsidera/MultiFractalFields.jl.git",
-    
-)
+#deploydocs(
+#    repo = "github.com/AndreConsidera/MultiFractalFields.jl.git",
+#    
+#)
