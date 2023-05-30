@@ -7,6 +7,8 @@
 
 
 Julia package for simulating multifractal random velocity fields according to the Gaussian Multiplicative Chaos Theory.
+See the [documentation](https://andreconsidera.github.io/MultiFractalFields.jl/dev/) for more details.
+
 
 This package was used to generate the results of [this paper](https://arxiv.org/pdf/2305.09839.pdf).
 
