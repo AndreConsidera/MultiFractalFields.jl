@@ -1,5 +1,4 @@
-![logo](docs/src/assets/logo.png)
-# MultiFractalFields   
+ # <img src="docs/src/assets/logo.png" alt="alt text" width="75" height="75" align="center">  MultiFractalFields   
 
 ---
 
