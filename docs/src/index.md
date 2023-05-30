@@ -1,8 +1,17 @@
 # Basic usage
 
+## Installation
+
+```julia
+julia> using Pkg
+julia> Pkg.add("MultiFractalFields")
+```
+
+---
+
 Below is a basic script to generate multifractal fields using `MultiFractalFields.jl`. The theoretical background is the Gaussian Multiplicative Chaos theory.
 
-This Julia package was used to generate the results of this [paper](https://arxiv.org/pdf/2305.09839.pdf).
+This Julia package was used to generate the results of [this paper](https://arxiv.org/pdf/2305.09839.pdf).
 
 ```julia
 using MultiFractalFields
