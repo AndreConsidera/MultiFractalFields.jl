@@ -30,6 +30,9 @@ struct MultiFractalField<:Field
     end
 end
 
+#constructor based on GMC
+MultiFractalField(cov::Covariance, gmc::GMC) = MultiFractalField(cov, gmc.torus, gmc.scov, gmc.γ)
+
 function Base.show(io::IO, mf::MultiFractalField)
     cov = getfield(mf, :cov)
     torus = getfield(mf, :torus)
