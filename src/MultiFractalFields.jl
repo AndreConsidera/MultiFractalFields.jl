@@ -13,6 +13,7 @@ module MultiFractalFields
     export UnitaryWhiteNoise, AbstractNoise
     export Torus
     export normevans
+    export GMC
     #export strucfunc
     
     include("normevans.jl")
@@ -21,6 +22,7 @@ module MultiFractalFields
     include("spectral_sqrt.jl")
     include("noises.jl")
     include("fields.jl")
+    include("gmc.jl")
     include("sample.jl")
     include("plotrecipes/fields.jl")
     #include("strucfunc.jl")

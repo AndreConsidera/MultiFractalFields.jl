@@ -13,4 +13,5 @@ function sample end
 # ----------------
 
 include("sample/gaussian.jl")
+include("sample/gmc.jl")
 include("sample/multifractal.jl")
