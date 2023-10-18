@@ -5,7 +5,6 @@
 [![CI](https://github.com/AndreConsidera/MultiFractalFields.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/AndreConsidera/MultiFractalFields.jl/actions/workflows/ci.yml)
 [![Coverage](https://codecov.io/gh/AndreConsidera/MultiFractalFields.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/AndreConsidera/MultiFractalFields.jl)
 [![DOI](https://zenodo.org/badge/645110670.svg)](https://zenodo.org/badge/latestdoi/645110670)
-[![Genie Downloads](https://shields.io/endpoint?url=https://pkgs.genieframework.com/api/v1/badge/Genie)](https://pkgs.genieframework.com?packages=MultiFractalFields).
 
 Julia package for simulating multifractal random velocity fields according to the Gaussian Multiplicative Chaos Theory.
 See the [documentation](https://andreconsidera.github.io/MultiFractalFields.jl/dev/) for more details.
